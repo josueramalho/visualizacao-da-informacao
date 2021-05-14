@@ -2,7 +2,7 @@ import plotly.express as px
 import numpy as np
 import pandas as pd
 
-data_df = pd.read_csv('/home/josue/Documents/cc/information_visualization/projeto/file.csv')
+data_df = pd.read_csv('https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/file.csv')
 index = pd.Series(data_df['causa'])
 
 y_data = data_df['causa']
