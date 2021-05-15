@@ -7,3 +7,7 @@ Requisitos:
 *   O dataset deve trazer dados reais.
 *   As visualizações devem ser adequadas à natureza dos dados e todas devem ser relacionadas entre si, já que se referem a partes do mesmo dataset.
 *   Deve ser escolhida ao menos uma técnica (mínimo três) de cada uma das cinco unidades da disciplina.
+
+### Gráfico 1:
+  O gráfico a seguir reprenta as principais causas de morte no mundo no ano de 2017, segundo a OMS (Organização Mundial da Saúde).
+![grafico1](https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/grafico1.png)
