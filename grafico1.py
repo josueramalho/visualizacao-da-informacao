@@ -2,7 +2,7 @@ import plotly.express as px
 import pandas as pd
 
 # Importando arquivo CSV que será usado
-dataset = pd.read_csv('https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/file.csv')
+dataset = pd.read_csv('https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/dataset_1.csv')
 index = pd.Series(dataset['causa'])
 
 # Separando dados para melhor visualização e tratamento
