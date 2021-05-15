@@ -1,11 +1,17 @@
 import plotly.express as px
-import numpy as np
 import pandas as pd
 
-data_df = pd.read_csv('https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/file.csv')
-index = pd.Series(data_df['causa'])
+# Importando arquivo CSV que será usado
+dataset = pd.read_csv('https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/file.csv')
+index = pd.Series(dataset['causa'])
 
-y_data = data_df['causa']
-x_data= data_df['total_global']
-fig = px.bar(index, x_data, y_data, orientation='h')
+# Separando dados para melhor visualização e tratamento
+y_data = dataset['causa']
+x_data= dataset['total_global']
+
+# Criando o gráfico
+fig = px.bar(index, x_data, y_data, orientation='h', labels={'y': 'Causa', 'x': 'Mortes (em milhões)'},
+            title='10 Principais causas de morte no mundo em 2017 (Fonte: OMS)', text=x_data)
+            
+#Exibindo o gráfico
 fig.show()
