@@ -2,7 +2,7 @@ import plotly.express as px
 import pandas as pd
 
 # Importando arquivo CSV que será usado
-dataset = pd.read_csv('https://github.com/josueramalho/visualizacao-da-informacao/raw/master/dataset.csv')
+dataset = pd.read_csv('https://github.com/josueramalho/visualizacao-da-informacao/raw/master/src/dataset.csv')
 dataset = pd.DataFrame(dataset)
 # Selecionando e tratando apenas os dados que serão usados no gráfico 1
 deaths_df = dataset.loc[dataset['Year'] == 2017]
