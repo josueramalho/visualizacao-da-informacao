@@ -10,8 +10,8 @@ Requisitos:
 
 ### Gráfico 1:
   O gráfico a seguir reprenta as principais causas de morte no mundo no ano de 2017, segundo a OMS (Organização Mundial da Saúde).
-![grafico1](https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/grafico1.png)
+![grafico1](https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/renders/grafico1.png)
 
 ### Gráfico 2:
   O gráfico a seguir reprenta o número de mortes por acidentes de trânsito no mundo de 1990 a 2017, segundo a OMS (Organização Mundial da Saúde).
-![grafico2](https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/grafico2.png)
+![grafico2](https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/renders/grafico2.png)
