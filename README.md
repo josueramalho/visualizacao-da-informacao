@@ -17,5 +17,5 @@ Requisitos:
 ![grafico2](https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/renders/grafico2.png)
 
 ### Gráfico 3:
-  O gráfico a seguir reprenta a distribuição do número de mortes por acidentes de trânsito no mundo em 2017, segundo a OMS (Organização Mundial da Saúde).
+  O gráfico a seguir representa a distribuição do número de mortes por acidentes de trânsito no mundo em 2017, segundo a OMS (Organização Mundial da Saúde).
 ![grafico3](https://raw.githubusercontent.com/josueramalho/visualizacao-da-informacao/master/renders/grafico3.png)
